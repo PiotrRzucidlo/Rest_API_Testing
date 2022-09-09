@@ -1,0 +1,72 @@
+1. https://thetestingworldapi.com/api/studentsDetails GET
+
+2. https://thetestingworldapi.com/api/studentsDetails/{id} GET
+
+ {
+      "id": 2677608,
+      "first_name": "Katarzyna",
+      "middle_name": "Pawel",
+      "last_name": "Jarzyna",
+      "date_of_birth": "05.07.1964"
+   },
+
+
+
+
+3. https://thetestingworldapi.com/api/studentsDetails POST
+
+{
+  "id": 1,
+  "first_name": "Bruce",
+  "middle_name": "Thomas",
+  "last_name": "Wayne",
+  "date_of_birth": "13.07.1982"
+}
+
+
+{
+      "id": 2678031,
+      "first_name": "Katarzyna",
+      "middle_name": "Anna",
+      "last_name": "Cichopek",
+      "date_of_birth": "01.01.2001"
+   }
+
+4.https://thetestingworldapi.com/api/studentsDetails/{id} PUT
+
+
+
+5. https://thetestingworldapi.com/api/studentsDetails/{id} DELETE
+
+I Zadanie
+
+1. Tworzymy nowego studenta i zapisujemy sobie jego ID
+2. Sprawdzamy GET, czy ten student jest. Zrobić property transfer (zrobić asercje)
+3. Zmiana dowolnego pola PUT. Robimy update dowolnych danych
+4. Sprawdzenie GETem, czy zmiany zostały wprowadzone
+5. Usuwamy studentkę Kasię
+6. GET Sprawdzamy czy studentka została usunięta.
+
+Na każdym kroku robimy maksymalną ilość asercji jaka przyjdzie nam do głowy.
+
+- Stworzyć nowego Suita "Suit_biznes_flow
+- Suit będzie składał się z jednego Case'a
+- case będzie miał 6 kroków
+- zrobić screen shoota odpalonego testu (wszystko ma świecić się na zielono)
+
+
+II Zadanie
+
+Link do repo. Wszystko wysłać na swoje repo zdalne na gitHub nazwać je Student_Rest_Project
+Czyli na swoim GitHubie robimy nowe repozytorium Student_Rest_Project
+
+
+{
+   "id": 2678031,
+   "first_name": "Katarzyna",
+   "middle_name": "Anna",
+   "last_name": "Cichopek",
+   "date_of_birth": "01.01.2001"
+}
+
+kahoot
