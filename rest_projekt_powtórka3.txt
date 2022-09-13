@@ -1,0 +1,29 @@
+1. https://thetestingworldapi.com/api/studentsDetails GET
+2.   {
+      "id": 3842236,
+      "first_name": "Leszek",
+      "middle_name": "Lech",
+      "last_name": "Czarny",
+      "date_of_birth": "10/10/2020"
+   }
+
+
+3. https://thetestingworldapi.com/api/studentsDetails/{id} GET ID
+
+
+4. https://thetestingworldapi.com/api/studentsDetails POST
+
+
+{
+  "first_name": "Thor",
+  "middle_name": "god of thunder",
+  "last_name": "Oddinson",
+  "date_of_birth": "01.01.1970"
+}
+
+5. https://thetestingworldapi.com/api/studentsDetails/{id} PUT
+
+6. https://thetestingworldapi.com/api/studentsDetails/{id} DELETE
+
+
+\w{3}[ -]?\w[ 3]?\w{ 4}
