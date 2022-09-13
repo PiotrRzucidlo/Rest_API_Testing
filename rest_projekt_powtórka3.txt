@@ -13,7 +13,6 @@
 
 4. https://thetestingworldapi.com/api/studentsDetails POST
 
-
 {
   "first_name": "Thor",
   "middle_name": "god of thunder",
